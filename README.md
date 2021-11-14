@@ -11,7 +11,7 @@ Also wanted to try out simple.css https://simplecss.org/demo
  
 2.Generate any models needed for the feature
 
-2.Update the database with migrations.
+3.Update the database with migrations.
 
 4.Generate any controllers needed
 
