@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Refresher of adding features.
 
-Things you may want to cover:
+Also wanted to try out simple.css https://simplecss.org/demo
 
-* Ruby version
+0. Break down feature to the smallest problem possible.
 
-* System dependencies
+1. Draw/mock-up screens of the app. Talk it out loud.
+   This will give you an idea of what your models will look like and what actions/controllers you'll need.
+ 
+2.Generate any models needed for the feature
 
-* Configuration
+3.Update the database with migrations.
 
-* Database creation
+4.Generate any controllers needed
 
-* Database initialization
+5.Edit the routes file to add in your URLs "resources"
 
-* How to run the test suite
+6. Add validations and scopes to your models
 
-* Services (job queues, cache servers, search engines, etc.)
+7.Fill in your controllers with actions
+  ```
+ def index 
+ end
+ ```
 
-* Deployment instructions
+8. Finishing touches. 
 
-* ...
+9. Repeat
