@@ -1,0 +1,9 @@
+<h1>Games</h1>
+<% @games.each do |game| %>
+  <div class="game">
+    <h2><%= link_to game.title, game.url %></h2>
+    <p><%= game.description %></p>
+  </div>
+<% end %>
+<p><%= link_to "Add a game", new_game_path %></p>
+<p><%= paginate @games %></p>

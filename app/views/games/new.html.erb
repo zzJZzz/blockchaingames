@@ -1,0 +1,9 @@
+<div class="flex justify-center">
+  <h1>Games#new</h1>
+  <%= simple_form_for @games do |form| %>
+    <%= form.input :title, label: "Game" %>
+    <%= form.input :description, label: "Description" %>
+    <%= form.input :url, label: "Link to game" %>
+    <%= form.button :submit %>
+  <% end %>
+</div>
